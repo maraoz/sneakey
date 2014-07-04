@@ -16,7 +16,4 @@
   "author": "",
   "license": "MIT",
   "homepage": "https://github.com/maraoz/sneakey",
-  "devDependencies": {
-    "bitcore": "0.1.24"
-  }
 }
