@@ -1,0 +1,22 @@
+{
+  "name": "sneakey",
+  "version": "0.0.1",
+  "description": "Image-based bitcoin private key derivation",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maraoz/sneakey.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "private",
+    "key",
+    "derivation",
+    "image"
+  ],
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://github.com/maraoz/sneakey",
+  "devDependencies": {
+    "bitcore": "0.1.24"
+  }
+}
