@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Image-based bitcoin private key and address derivation</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style TYPE="text/css">
+    .break {
+      page-break-before: always
+    }
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript" src="bitcore-0.1.24.js"></script>
+  <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+  <script type="text/javascript" src="qrcode.min.js"></script>
+
+  <link href="css/bootstrap.min.css " rel="stylesheet " />
+
+  <div class="container ">
+    <div class="page-header ">
+      <h1>Image-based bitcoin private key and address derivation using <a href="http://bitcore.io ">bitcore</a></h1>
+      <h3>
+          by <a href="https://twitter.com/maraoz ">@maraoz</a> - 
+           <a href="https://github.com/maraoz/sneakey/ " class="btn btn-success">
+            View source code
+            <span class="glyphicon glyphicon-search "></span>
+          </a>
+        </h3>
+      <!--
+        <h2><span class="label label-warning ">WARNING</span> 
+          This is experimental software, don't use to store actual bitcoins</h2>
+        -->
+    </div>
+
+    <div class="row ">
+      <div class="col-md-6">
+        <h3>Input image</h2>
+        <input type="file" id='image' />
+        <img id="preview" style="max-width: 90%; max-height: 80%;" />
+      </div>
+      <div class="col-md-6" style="display:none;" id="result">
+        <h3>Private key</h3>
+        <div id='priv' ></div>
+
+        <h3>Address</h3>
+        <div id='addr'></div>
+
+        <div id="qrcode"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="index.js "></script>
+</body>
+
+</html>
